@@ -9,9 +9,9 @@ public class ConnectionFactory {
 		try {
 			
 			return DriverManager.getConnection(
-				"jdbc:mysql://localhost/vnuk_personnel",
+				"jdbc:mysql://localhost/vnuk_cities",
 				"root",
-				"09031999Phu"
+				"Phu090399!"
 			);
 		}
 		catch(SQLException e) {
